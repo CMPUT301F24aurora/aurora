@@ -4,6 +4,10 @@ public abstract class Shape {
     private int x;
     private int y;
 
+    public Shape(){
+        
+    }
+
     // Constructor to initialize x and y
     public Shape(int x, int y) {
         this.x = x;
